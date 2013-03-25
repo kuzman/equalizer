@@ -1,0 +1,18 @@
+{
+  "name": "equalizer",
+  "title": "Equalizer",
+  "version": "0.0.1",
+  "description": "JS and CSS built Equalizer's columns that simulate the variable resistors. The equalizer's columns can go from 0 to 100% or the sum of the columns can be 100%",
+  "authors": {
+    "name": "Darko Kuzmanovski <darko.kuzmanovski@gmail.com>",
+    "url": "https://github.com/kuzman",
+	"name": "Eric Herve <eric.herve.95@gmail.com>",
+    "url": "https://github.com/eherve"
+  },
+  "keywords": [
+    "equalizer",
+    "columns",
+    "adaptive",
+    "ui"
+  ],
+}
