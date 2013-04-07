@@ -5,11 +5,11 @@ div.equalizer {
 span.equalizer-title {
   display: block;
   margin: 2px;
-  background-color: #213F6E;
+  background-color: #00B349;
   text-align: center;
   color: white;
   border-style: outset;
-  border-color: #213F6E;
+  border-color: #00B349;
 }
 
 div.equalizer-sections-wrapper {
@@ -21,15 +21,15 @@ div.equalizer-section {
   padding: 2px;
   margin: 2px;
   text-align: center;
-  background-color: #213F6E;
-  border-style: outset;
-  border-color: #213F6E;
+  background-color: #E8E8E8;
+  border-radius: 7px;
+  -moz-border-radius: 5px;
 }
 
 span.equalizer-section-header {
   display: block;
   background-position: top center;
-  color: white;
+  color: #747170;
 }
 
 div.equalizer-section-bar {
@@ -38,11 +38,13 @@ div.equalizer-section-bar {
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  width: 15px;
+  width: 12px;
   height: 120px;
   vertical-align: bottom;
   background-position: bottom center;
-  background-color: black;
+  background-color: #747170;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
 }
 
 div.equalizer-section-bar-value {
@@ -50,17 +52,20 @@ div.equalizer-section-bar-value {
   bottom: 0;
   width: 100%;
   background-color: white;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 div.equalizer-section-bar-button {
   position: absolute;
-  left: -5px;
+  left: -7px;
   height: 5px;
   width: 19px;
   background-position: center;
-  background-color: white;
+  background-color: #00B349;
   border-style: outset;
-  border-color: black;
+  border-color: #00B349;
+  border-radius: 5px;
 }
 
 
@@ -78,6 +83,6 @@ span.equalizer-section-footer {
   margin: 2px;
   vertical-align: bottom;
   background-position: bottom center;
-  color: white;
+  color: #747170;
 }
 
